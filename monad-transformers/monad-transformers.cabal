@@ -1,0 +1,36 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           monad-transformers
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/fpclass/fp2-lectures#readme>
+homepage:       https://github.com/fpclass/fp2-lectures#readme
+bug-reports:    https://github.com/fpclass/fp2-lectures/issues
+author:         Michael B. Gale
+maintainer:     michael@fpclass.online
+copyright:      Copyright 2021 Michael B. Gale
+build-type:     Simple
+
+source-repository head
+  type: git
+  location: https://github.com/fpclass/fp2-lectures
+
+library
+  exposed-modules:
+      Academic
+      ExampleStack
+      ExceptT
+      Identity
+      MonadTrans
+      Problem
+      ReaderT
+  other-modules:
+      Paths_monad_transformers
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010

@@ -3,6 +3,7 @@
 This repository contains all examples shown in Functional Programming II lectures. The code for each individual lecture is provided as a separate library in the respective directory.
 
 - [Monad transformers](https://github.com/fpclass/fp2-lectures/tree/master/monad-transformers)
+- [Free monads](https://github.com/fpclass/fp2-lectures/tree/master/free-monads)
 
 ## Copyright
 
